@@ -1,32 +1,25 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'IPD Design System',
+  tagline:
+    'The SMC Group 내부 서비스를 일관성을 가지고 구축하기 위한 디자인을 정의합니다.',
   favicon: 'img/favicon.ico',
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://0Chan-smc.github.io',
+  baseUrl: '/ipd-design-system/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: '0Chan-smc',
+  projectName: 'ipd-design-system',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ko-KR',
+    locales: ['ko-KR'],
   },
 
   presets: [
@@ -35,17 +28,15 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/0Chan-smc/ipd-design-system/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
+          // showReadingTime: true,
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // editUrl:
+          // 'https://github.com/0Chan-smc/ipd-design-system/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,22 +49,28 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'My Site',
+      title: 'Design system',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'SMC Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guidelinesSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: '가이드라인',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'componentsSidebar',
+        //   position: 'left',
+        //   label: '컴포넌트',
+        // },
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://main--6620de02a5e20036aa48cf04.chromatic.com',
+          label: 'Storybook',
           position: 'right',
         },
       ],
@@ -82,46 +79,46 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: '문서',
           items: [
             {
-              label: 'Tutorial',
+              label: '가이드라인',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: '연관 프로젝트',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'PMS',
+              href: 'https://pms.smcpage.com/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'ERP',
+              href: 'https://erp.smcpage.com/',
             },
           ],
         },
         {
-          title: 'More',
+          title: '디자인 시스템',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/0Chan-smc/ipd-design-system',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Storybook',
+              href: 'https://main--6620de02a5e20036aa48cf04.chromatic.com',
+            },
+            {
+              label: 'Chromatic',
+              href: 'https://www.chromatic.com/library?appId=6620de02a5e20036aa48cf04&branch=main',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} The SMC Group | Team IPD`,
     },
     prism: {
       theme: prismThemes.github,
