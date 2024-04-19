@@ -4,8 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'IPD Design System',
-  tagline:
-    'The SMC Group 내부 서비스를 일관성을 가지고 구축하기 위한 디자인을 정의합니다.',
+  tagline: '내부 서비스를 일관성 있게 구축하기 위한 디자인을 정의합니다.',
   favicon: 'img/favicon.ico',
 
   url: 'https://0Chan-smc.github.io',
@@ -87,16 +86,29 @@ const config: Config = {
             },
           ],
         },
+        // {
+        //   title: "연관 프로젝트",
+        //   items: [
+        //     {
+        //       label: "PMS",
+        //       href: "https://pms.smcpage.com/",
+        //     },
+        //     {
+        //       label: "ERP",
+        //       href: "https://erp.smcpage.com/",
+        //     },
+        //   ],
+        // },
         {
-          title: '연관 프로젝트',
+          title: '참고 자료',
           items: [
             {
-              label: 'PMS',
-              href: 'https://pms.smcpage.com/',
+              label: 'SMC 비주얼 가이드라인',
+              href: 'https://hub.smcpage.com/the-smc-%eb%b8%8c%eb%9e%9c%eb%93%9c-%eb%b9%84%ec%a3%bc%ec%96%bc-%ea%b0%80%ec%9d%b4%eb%93%9c%eb%9d%bc%ec%9d%b8/',
             },
             {
-              label: 'ERP',
-              href: 'https://erp.smcpage.com/',
+              label: '쏘카 디자인 시스템',
+              href: 'https://socarframe.socar.kr/8bb3aba4a/p/5857a5-socar-frame',
             },
           ],
         },
