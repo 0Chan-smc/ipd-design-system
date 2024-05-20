@@ -14,12 +14,12 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw-foundation.svg').default,
     description: (
       <>
-        색상, 서체와 같은 <code>디자인 요소</code>를 정립합니다.
+        색상, 서체와 같은 <code>디자인 원칙</code>를 정립합니다.
       </>
     ),
   },
   {
-    title: 'Component',
+    title: 'Components',
     Svg: require('@site/static/img/undraw-component.svg').default,
     description: (
       <>
@@ -28,11 +28,11 @@ const FeatureList: FeatureItem[] = [
     ),
   },
   {
-    title: 'Guideline',
+    title: 'UI Guideline',
     Svg: require('@site/static/img/undraw-guideline.svg').default,
     description: (
       <>
-        좋은 사용자 경험 예시가 되는 <code>패턴</code>을 알아봅니다.
+        좋은 사용자 경험 예시가 되는 <code>UI 가이드라인</code>을 알아봅니다.
       </>
     ),
   },

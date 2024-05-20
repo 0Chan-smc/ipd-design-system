@@ -4,44 +4,15 @@ sidebar_position: 1
 
 # 색상
 
-Let's discover **Docusaurus in less than 5 minutes**.
+![색상 비율](/img/color-proportion.png)
 
-## Getting Started
+TheSMC 브랜드 색상은 다음과 같습니다.
 
-Get started by **creating a new site**.
+- 메인 색상 : `흑색`(#000000), `백색`(#FFFFFF)
+- 포인트 색상 : `파랑색`(#2B71FC), `보라색`(#CB8CF4)
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## 활용법
 
-### What you'll need
+메인 색상인 **흑백을 위주로 사용**하되, **강조할 부분에 포인트 색상**을 씁니다.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+이 때 포인트 색상을 남용하지 않도록 주의하면서 가능한 비율을 유지합니다.

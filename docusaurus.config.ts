@@ -52,10 +52,10 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'guidelinesSidebar',
           position: 'left',
-          label: 'Foundation',
+          label: '원칙',
         },
         { to: '/components', label: '컴포넌트', position: 'left' },
-        { to: '/blog', label: '가이드라인', position: 'left' },
+        { to: '/blog', label: 'UI 가이드라인', position: 'left' },
         {
           href: 'https://main--6620de02a5e20036aa48cf04.chromatic.com',
           label: 'Storybook',
@@ -78,7 +78,7 @@ const config: Config = {
               to: '/components',
             },
             {
-              label: 'Guidelines',
+              label: 'UI Guidelines',
               to: '/blog',
             },
           ],

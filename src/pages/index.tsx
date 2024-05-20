@@ -21,7 +21,7 @@ function HomepageHeader() {
             className="button button--secondary button--lg"
             to="/docs/color"
           >
-            Foundation 알아보기 🔍
+            디자인 원칙 알아보기 🔍
           </Link>
         </div>
       </div>
