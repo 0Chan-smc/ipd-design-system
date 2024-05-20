@@ -27,15 +27,9 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // 'https://github.com/0Chan-smc/ipd-design-system/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           // showReadingTime: true,
-          // Remove this to remove the "edit this page" links.
-          // editUrl:
-          // 'https://github.com/0Chan-smc/ipd-design-system/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -81,24 +75,19 @@ const config: Config = {
           title: '문서',
           items: [
             {
-              label: '가이드라인',
-              to: '/docs/intro',
+              label: 'Foundation',
+              to: '/docs/color',
+            },
+            {
+              label: 'Components',
+              to: '/components',
+            },
+            {
+              label: 'Guidelines',
+              to: '/blog',
             },
           ],
         },
-        // {
-        //   title: "연관 프로젝트",
-        //   items: [
-        //     {
-        //       label: "PMS",
-        //       href: "https://pms.smcpage.com/",
-        //     },
-        //     {
-        //       label: "ERP",
-        //       href: "https://erp.smcpage.com/",
-        //     },
-        //   ],
-        // },
         {
           title: '참고 자료',
           items: [
