@@ -10,7 +10,7 @@ const config: Config = {
   url: 'https://0Chan-smc.github.io',
   baseUrl: '/ipd-design-system/',
 
-  organizationName: '0Chan-smc',
+  organizationName: 'SMC-RD-Team',
   projectName: 'ipd-design-system',
 
   onBrokenLinks: 'throw',
