@@ -54,13 +54,8 @@ const config: Config = {
           position: 'left',
           label: 'Foundation',
         },
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'componentsSidebar',
-        //   position: 'left',
-        //   label: '컴포넌트',
-        // },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/components', label: '컴포넌트', position: 'left' },
+        { to: '/blog', label: '가이드라인', position: 'left' },
         {
           href: 'https://main--6620de02a5e20036aa48cf04.chromatic.com',
           label: 'Storybook',
