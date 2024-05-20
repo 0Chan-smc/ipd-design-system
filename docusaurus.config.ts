@@ -58,7 +58,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'guidelinesSidebar',
           position: 'left',
-          label: '가이드라인',
+          label: 'Foundation',
         },
         // {
         //   type: 'docSidebar',
