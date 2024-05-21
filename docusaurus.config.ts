@@ -10,7 +10,8 @@ const config: Config = {
   url: 'https://0Chan-smc.github.io',
   baseUrl: '/ipd-design-system/',
 
-  organizationName: 'SMC-RD-Team',
+  // organizationName은 Repo 소유자 이름을 적어야 함.
+  organizationName: '0Chan-smc',
   projectName: 'ipd-design-system',
 
   onBrokenLinks: 'throw',
