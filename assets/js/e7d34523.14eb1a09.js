@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkipd_design_system=self.webpackChunkipd_design_system||[]).push([[2904],{268:s=>{s.exports=JSON.parse('{"permalink":"/ipd-design-system/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

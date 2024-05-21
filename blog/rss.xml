@@ -9,23 +9,16 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko-KR</language>
         <item>
-            <title><![CDATA[Welcome]]></title>
-            <link>https://0Chan-smc.github.io/ipd-design-system/blog/welcome</link>
-            <guid>https://0Chan-smc.github.io/ipd-design-system/blog/welcome</guid>
+            <title><![CDATA[Gutenberg Principle]]></title>
+            <link>https://0Chan-smc.github.io/ipd-design-system/blog/gutenberg-principle</link>
+            <guid>https://0Chan-smc.github.io/ipd-design-system/blog/gutenberg-principle</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-            <content:encoded><![CDATA[<p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>
-<p>Simply add Markdown files (or folders) to the <code>blog</code> directory.</p>
-<p>Regular blog authors can be added to <code>authors.yml</code>.</p>
-<p>The blog post date can be extracted from filenames, such as:</p>
-<ul>
-<li><code>2019-05-30-welcome.md</code></li>
-<li><code>2019-05-30-welcome/index.md</code></li>
-</ul>
-<p>A blog post folder can be convenient to co-locate blog post images:</p>
-<p><img decoding="async" loading="lazy" alt="Docusaurus Plushie" src="https://0chan-smc.github.io/ipd-design-system/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500" class="img_rjKv"></p>
-<p>The blog supports tags as well!</p>
-<p><strong>And if you don't want a blog</strong>: just delete this directory, and use <code>blog: false</code> in your Docusaurus config.</p>]]></content:encoded>
+            <description><![CDATA[구텐베르크의 법칙]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="구텐베르크의 법칙" src="https://0chan-smc.github.io/ipd-design-system/assets/images/guideline-gutenberg-principle-7b4c31eebf662348c35ed1758f6e1ea4.png" width="612" height="277" class="img_rjKv"></p>
+<p>구텐베르크 다이어그램에 따르면, 우리는 한 화면에 표시된 매체를 네 부분으로 나눈다고 합니다.</p>
+<p>이 때 시선은 <strong>왼쪽 상단에서 출발해 우측 상단, 좌측 하단에 이르러 우측 하단에서 끝나게 된다</strong>는 것인데요.</p>
+<p>시선처리 과정에서 우측상단과 좌측하단은 시선이 집중되지 않는 영역이라고 합니다.</p>
+<p>따라서, 사이트에서 시선의 흐름을 고려해 대각선으로 균형을 이루는 것이 가장 효과적입니다.</p>]]></content:encoded>
             <category>facebook</category>
             <category>hello</category>
             <category>docusaurus</category>

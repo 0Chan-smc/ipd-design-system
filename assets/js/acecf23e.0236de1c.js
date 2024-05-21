@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkipd_design_system=self.webpackChunkipd_design_system||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/ipd-design-system/blog","blogTitle":"Blog"}')}}]);

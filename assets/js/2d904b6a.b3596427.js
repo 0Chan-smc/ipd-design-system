@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkipd_design_system=self.webpackChunkipd_design_system||[]).push([[907],{2603:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/ipd-design-system/blog/tags/hello","allTagsPath":"/ipd-design-system/blog/tags","count":2,"unlisted":false}')}}]);
