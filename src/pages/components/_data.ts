@@ -14,7 +14,7 @@ export default [
     title: '아코디언',
     Svg: accordionImage,
     description:
-      'Play the mathimagical game where you arrange monsters to complete the dungeon’s sum-mons. May Trix the Witch is doing all she can to bring the dungeon to order!',
+      '아코디언 요소로 페이지 내 콘텐츠의 섹션을 표시하고 숨길 수 있습니다.',
     url: 'https://excaliburjs.com/ludum-55/',
     source: 'https://github.com/excaliburjs/ludum-55',
   },
@@ -22,7 +22,7 @@ export default [
     title: '경고',
     Svg: alertsImage,
     description:
-      'A little farming game created with the Excalibur Tiled plugin. Come and enjoy the supremely cozy vibes on this lovely farm.',
+      '경고 요소로 성공, 오류 메시지와 같은 정보를 제공하여 사용자에게 상황별 피드백 메시지를 제공합니다.',
     url: 'https://excali-farm.netlify.app/',
     source: 'https://github.com/mahbarahona/tiles',
   },
@@ -30,7 +30,7 @@ export default [
     title: '아바타',
     Svg: avatarImage,
     description:
-      "Put your skis and let's race some randomly generated alpine ski tracks with your friends.",
+      '아바타 요소는 프로필 사진과 같이 사용자를 나타내는 데 사용되며 웹사이트에서 사용자를 구별하는 식별자 역할을 합니다.',
     url: 'https://une-entreprise.ch/retroski/',
     source: 'https://github.com/mathieuher/RetroSki',
   },
@@ -38,55 +38,49 @@ export default [
     title: '버튼 그룹',
     Svg: buttonGroupImage,
     description:
-      'Ride your motorcycle through the city at night! Jump over as many vehicles as you can!',
+      '여러 개의 버튼을 묶어 그룹화하거나, 세로로 겹쳐 놓을 수 있습니다.',
     url: 'https://nightbike.mattjennin.gs/',
     source: 'https://github.com/mattjennings/nightbike',
   },
   {
     title: '버튼',
     Svg: buttonsImage,
-    description:
-      'Super Metronome Hero is a rhythm game. Rather than trying to make a game I wanted to play out of this rather popular genre I decided to send it up with this nonsense joke game.',
-    url: 'https://super-metronome-hero.vidja.games/',
+    description: '버튼 요소로 사용자가 작업을 수행하는데 사용됩니다.',
+    url: 'https://main--6620de02a5e20036aa48cf04.chromatic.com/?path=/docs/example-button--docs',
     source: 'https://github.com/dcgw/super-metronome-hero',
   },
   {
     title: '카드',
     Svg: cardsImage,
-    description:
-      'This game is an easily customizable template for developing an Excalibur game with Ionic React, the XState library, i18next, Twine integration for dynamic dialogs, and CapacitorJS. It comes with scene transitions, data persistence and tutorials included!',
+    description: '한 단위의 .....',
     url: 'https://nicastro.in/excalibur-games/sword-adventure',
     source: 'https://github.com/facondiaGames/sword-adventure',
   },
   {
     title: '캐러셀',
     Svg: carouselImage,
-    description:
-      'This game was created for Ludum Dare 50. Defend your sandcastle from crabs, turtles, and seagulls in this beach-themed tower defense game!',
+    description: '연속 되는......',
     url: 'http://excaliburjs.com/ludum-50/',
     source: 'https://github.com/excaliburjs/ludum-50',
   },
   {
     title: '드롭다운',
     Svg: dropdownImage,
-    description:
-      'This game was created for Ludum Dare 48. Dig deeply and quickly to get to your next metal gig, but watch out for the mechanical snake that pursues you!',
+    description: '......',
     url: 'http://excaliburjs.com/ludum-48/',
     source: 'https://github.com/excaliburjs/ludum-48',
   },
   {
     title: '리스트 그룹',
     Svg: listGroupImage,
-    description:
-      'This game was created for Ludum Dare 46. Keep the theater production going as the only actor!',
+    description: '리스트 그룹.....',
     url: 'http://excaliburjs.com/ludum-46/',
     source: 'https://github.com/excaliburjs/ludum-46',
   },
   {
     title: '탭',
     Svg: tabsImage,
-    description:
-      'This game was created for Ludum Dare 41. Balance the needs of your job with the needs of your dream!',
+    description: '여러 개의......',
     url: 'http://excaliburjs.com/ludum-41/',
     source: 'https://github.com/excaliburjs/ludum-41',
   },

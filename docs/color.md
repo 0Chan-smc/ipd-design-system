@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 색상
 
-![색상 비율](/img/color-proportion.png)
+![색상 비율](/img/foundation-color-proportion.png)
 
 TheSMC 브랜드 색상은 다음과 같습니다.
 
