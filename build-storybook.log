@@ -1,13 +1,18 @@
 
-> ipd-design-system@0.0.0 build-storybook /home/milk/workspace/company/ipd-design-system
-> storybook build "--output-dir" "/tmp/chromatic--23778-JdQwdaObMyuN"
+> ipd-design-system@0.0.0 build-storybook /home/smc/workspace/ipd-design-system
+> storybook build "--output-dir" "/tmp/chromatic--25862-PVe3AKkWmcHW"
 
-@storybook/cli v8.0.8
+@storybook/cli v8.1.7
 
-info => Cleaning outputDir: ../../../../../tmp/chromatic--23778-JdQwdaObMyuN
+info => Cleaning outputDir: ../../../../tmp/chromatic--25862-PVe3AKkWmcHW
 info => Loading presets
+WARN The "@storybook/addon-mdx-gfm" addon is meant as a migration assistant for Storybook 8.0; and will likely be removed in a future version.
+WARN It's recommended you read this document:
+WARN https://storybook.js.org/docs/writing-docs/mdx#markdown-tables-arent-rendering-correctly
+WARN 
+WARN Once you've made the necessary changes, you can remove the addon from your package.json and storybook config.
 info => Building manager..
-info => Manager built (190 ms)
+info => Manager built (251 ms)
 info => Building preview..
 info Addon-docs: using MDX3
 info => Using implicit CSS loaders
@@ -17,14 +22,15 @@ WARN asset size limit: The following asset(s) exceed the recommended size limit 
 WARN This can impact web performance.
 WARN Assets: 
 WARN   static/media/addon-library.7a58d2cb.png (456 KiB)
-WARN   270.532832f0.iframe.bundle.js (637 KiB)
-WARN   701.1bfe05b0.iframe.bundle.js (1.54 MiB)
+WARN   370.6ef12447.iframe.bundle.js (684 KiB)
+WARN   121.1cba11f8.iframe.bundle.js (758 KiB)
+WARN   953.f81d623a.iframe.bundle.js (830 KiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
-WARN   main (1.56 MiB)
-WARN       runtime~main.f0591b56.iframe.bundle.js
-WARN       701.1bfe05b0.iframe.bundle.js
-WARN       main.2c6ed486.iframe.bundle.js
+WARN   main (853 KiB)
+WARN       runtime~main.17d354af.iframe.bundle.js
+WARN       953.f81d623a.iframe.bundle.js
+WARN       main.e45d1cc1.iframe.bundle.js
 WARN 
-info => Preview built (6.09 s)
-info => Output directory: /tmp/chromatic--23778-JdQwdaObMyuN
+info => Preview built (40 s)
+info => Output directory: /tmp/chromatic--25862-PVe3AKkWmcHW

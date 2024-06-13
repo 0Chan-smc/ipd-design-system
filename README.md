@@ -25,7 +25,7 @@ $ pnpm build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ### Deployment
-
+#### Docusaurus 배포
 Using SSH:
 
 ```
@@ -39,3 +39,8 @@ $ GIT_USER=<Your GitHub username> pnpm deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+#### Storybook 배포
+```
+$ pnpm dlx chromatic --project-token <YOUR_PROJECT_TOKEN>
+```
