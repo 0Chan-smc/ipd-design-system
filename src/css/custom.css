@@ -8,6 +8,9 @@
  @tailwind components;
  @tailwind utilities;
 
+/* Google font - Noto Sans KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #000000;
