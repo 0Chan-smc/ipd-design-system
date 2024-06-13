@@ -41,8 +41,8 @@ export const Button2 = ({
         'font-sans flex items-center justify-center px-4 py-2 text-xl text-white border border-blue-400 rounded-lg cursor-pointer',
         'bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500',
         'hover:bg-gradient-to-br focus:ring-1 focus:outline-none focus:ring-blue-200',
+		backgroundColor ? 'bg-none bg-rose-400 border-0' : ''
       )}
-      style={{ backgroundColor }}
       {...props}
     >
       <Edit2 className="w-5 h-5 mr-0.5"/>

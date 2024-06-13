@@ -27,7 +27,7 @@ interface ButtonProps {
 }
 
 /**
- * Primary UI component for user interaction
+ * Flowbite 기반 버튼 UI입니다.
  */
 export const Button = ({
   primary = false,
@@ -37,13 +37,30 @@ export const Button = ({
   ...props
 }: ButtonProps) => {
   // const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  const mode = primary ? 'bg-yellow-200' : 'storybook-button--secondary';
+  const mode = primary ? 'text-white bg-blue-700 hover:bg-blue-800 focus:ring-blue-300' : 'text-gray-900 bg-white hover:bg-gray-100 hover:text-blue-700 border border-gray-200 focus:ring-gray-100';
+  const colorVariants = {
+    blue500: 'bg-blue-500 hover:bg-blue-600',
+    blue400: 'bg-blue-400 hover:bg-blue-500',
+    sky700: 'bg-sky-700 hover:bg-sky-800',
+    sky500: 'bg-sky-500 hover:bg-sky-600',
+    sky400: 'bg-sky-400 hover:bg-sky-500',
+    red: 'bg-red-600 hover:bg-red-500',
+  }
+
+  const color = backgroundColor.slice(3, -4);
+  const num = backgroundColor.slice(-3)
+  const customBackgroundColorWithHover = backgroundColor ? colorVariants[`${color}${num}`] : ''
+
+  console.log('zz', customBackgroundColorWithHover);
   return (
     <button
       type="button"
       // className={['font-sans','storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      className={cn('font-sans flex items-center justify-center px-4 py-2 text-xl rounded-3xl border-0 cursor-pointer')}
-      style={{ backgroundColor }}
+      className={cn(
+        'flex items-center justify-center px-4 py-2 text-xl rounded-full border-0 cursor-pointer focus:ring-4',
+        mode,
+        customBackgroundColorWithHover
+      )}
       {...props}
     >
       <Edit2 className="w-5 h-5 mr-0.5"/>
