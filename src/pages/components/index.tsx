@@ -52,7 +52,7 @@ export default function Components(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <ComponentsPageHeader />
-      <main className="bg-black">
+      <main>
         <div className="ui container">
           <h2 className="ui header">컴포넌트</h2>
           <div className="ui section divider" />
