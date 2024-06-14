@@ -9,6 +9,13 @@ const preview: Preview = {
         date: /Date$/i,
       },
     },
+    html: {
+      prettier: {
+        tabWidth: 4,
+        useTabs: false,
+        htmlWhitespaceSensitivity: "strict",
+      },
+    },
   },
 };
 

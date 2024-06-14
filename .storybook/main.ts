@@ -12,7 +12,8 @@ const config: StorybookConfig = {
     "@storybook/addon-essentials",
     "@chromatic-com/storybook",
     "@storybook/addon-interactions",
-    "@storybook/addon-mdx-gfm"
+    "@storybook/addon-mdx-gfm",
+    "@whitespace/storybook-addon-html"
   ],
   webpackFinal: async (config) => {
     (config.module?.rules ?? []).push({
