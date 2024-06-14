@@ -50,6 +50,7 @@
     "chromatic": "^11.3.0",
     "postcss": "^8.4.38",
     "postcss-loader": "^8.1.1",
+    "prettier": "^3.3.2",
     "storybook": "^8.1.7",
     "tailwindcss": "^3.4.4",
     "tailwindcss-animate": "^1.0.7",
