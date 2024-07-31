@@ -24,46 +24,11 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // More on writing stories with args: https://storybook.js.org/docs/writing-stories/args
-export const 원본700: Story = {
-  args: {
-    primary: true,
-    label: '작성',
-    backgroundColor: 'bg-blue-700',
-  },
-};
-export const 옅게500: Story = {
+export const 기본: Story = {
   args: {
     primary: true,
     label: '작성',
     backgroundColor: 'bg-blue-500',
-  },
-};
-export const 더옅게400: Story = {
-  args: {
-    primary: true,
-    label: '작성',
-    backgroundColor: 'bg-blue-400',
-  },
-};
-export const 하늘700: Story = {
-  args: {
-    primary: true,
-    label: '작성',
-    backgroundColor: 'bg-sky-700',
-  },
-};
-export const 하늘500: Story = {
-  args: {
-    primary: true,
-    label: '작성',
-    backgroundColor: 'bg-sky-500',
-  },
-};
-export const 하늘400: Story = {
-  args: {
-    primary: true,
-    label: '작성',
-    backgroundColor: 'bg-sky-400',
   },
 };
 
@@ -72,25 +37,3 @@ export const Secondary: Story = {
     label: '작성',
   },
 };
-
-// export const Large: Story = {
-//   args: {
-//     size: 'large',
-//     label: '작성',
-//   },
-// };
-
-// export const Small: Story = {
-//   args: {
-//     size: 'small',
-//     label: '작성',
-//   },
-// };
-
-// export const Warning: Story = {
-//   args: {
-//     primary: true,
-//     label: '삭제',
-//     backgroundColor: 'bg-rose-500',
-//   }
-// };
