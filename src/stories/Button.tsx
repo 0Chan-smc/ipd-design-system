@@ -4,30 +4,15 @@ import { Edit2 } from "react-feather";
 import { cn } from "../utils";
 
 interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
   primary?: boolean;
-  /**
-   * What background color to use
-   */
   backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
   size?: "small" | "medium" | "large";
-  /**
-   * Button contents
-   */
   label: string;
-  /**
-   * Optional click handler
-   */
   onClick?: () => void;
 }
 
 /**
- * Flowbite 기반 버튼 UI입니다.
+ * Pill 모양 버튼
  */
 export const Button = ({
   primary = false,
@@ -90,9 +75,9 @@ export const Button = ({
     color: #333;
     background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
-  }
-  .storybook-button--small {
-    font-size: 12px;
+    .storybook-button--small {
+      font-size: 12px;
+    }
     padding: 10px 16px;
   }
   .storybook-button--medium {
