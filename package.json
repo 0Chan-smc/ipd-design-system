@@ -29,7 +29,6 @@
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.5.0",
     "@docusaurus/module-type-aliases": "3.2.1",
     "@docusaurus/tsconfig": "3.2.1",
     "@docusaurus/types": "3.2.1",
