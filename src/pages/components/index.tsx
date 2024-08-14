@@ -57,7 +57,7 @@ export default function Components(): JSX.Element {
           <h2 className="ui header">컴포넌트</h2>
           <div className="ui section divider" />
           <CardList items={data} />
-          <div className="ui hidden divider" />
+          <div className="ui divider hidden" />
         </div>
       </main>
     </Layout>

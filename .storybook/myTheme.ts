@@ -4,14 +4,15 @@ export default create({
   base: 'light',
   brandTitle: 'My custom Storybook',
   brandUrl: 'https://example.com',
-  brandImage: '	https://thesmc.co.kr/wp-content/themes/thesmc/images/common/logo.png',
+  brandImage:
+    '	https://thesmc.co.kr/wp-content/themes/thesmc/images/common/logo.png',
   brandTarget: '_self',
 
   //
   colorPrimary: '#3A10E5',
   colorSecondary: '#585C6D',
 
-  // UI  
+  // UI
   appBg: 'white',
   appContentBg: 'white',
   appPreviewBg: '#ffffff',

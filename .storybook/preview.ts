@@ -1,4 +1,4 @@
-import type { Preview } from "@storybook/react";
+import type { Preview } from '@storybook/react';
 import '../src/css/custom.css';
 
 const preview: Preview = {
@@ -13,7 +13,7 @@ const preview: Preview = {
       prettier: {
         tabWidth: 4,
         useTabs: true,
-        htmlWhitespaceSensitivity: "ignore",
+        htmlWhitespaceSensitivity: 'ignore',
       },
     },
   },
