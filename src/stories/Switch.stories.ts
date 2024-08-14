@@ -1,6 +1,6 @@
 import { fn } from '@storybook/test';
 
-import { Switch } from './Switch';
+import { Switch } from '../components/@common/Switch';
 import { Meta, StoryObj } from '@storybook/react';
 
 const meta = {
@@ -14,14 +14,14 @@ const meta = {
     isChecked: { control: 'boolean' },
   },
   args: { onChange: fn() },
-} satisfies Meta<typeof Switch>
+} satisfies Meta<typeof Switch>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const 기본: Story = {
   args: {
-    size: "default",
+    size: 'default',
     label: '사용 / 종료',
     isChecked: false,
     isDisabled: false,
@@ -29,9 +29,9 @@ export const 기본: Story = {
 };
 export const 비활성화: Story = {
   args: {
-    size: "default",
+    size: 'default',
     label: '사용 / 종료',
     isChecked: false,
-    isDisabled: true
+    isDisabled: true,
   },
 };
